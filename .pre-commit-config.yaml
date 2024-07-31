@@ -1,0 +1,8 @@
+# This is the configuration file for pre-commit hooks.
+# It defines the repositories and hooks to run before each commit.
+
+repos:
+  - repo: https://github.com/pre-commit/mirrors-trufflehog
+    rev: v2.0.6  # The version of the TruffleHog hook. Update to the latest version if needed.
+    hooks:
+      - id: trufflehog

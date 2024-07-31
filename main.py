@@ -1,7 +1,7 @@
 # main.py 
-from secrets import secrets 
+from secrets import secrets
 
-secret_key = secrets.get('SECRET_KEY') 
+secret_key = secrets.get('SECRET_KEY')
 
 # gives default value if the credential is absent 
 google_maps_key = secrets.get('gmaps_key', 
